@@ -1,0 +1,77 @@
+unit Script;
+
+// Global variables
+var
+   Tempo: array[0..10] of integer;
+   TempoPulse: array[0..10] of byte;
+   Cycle: integer;
+
+
+// Time confirmation of a boolean signal
+function ConfirmBool(bit:boolean; time:integer; tempono: integer):boolean;
+var
+   Counter: integer;
+   B: byte;
+begin
+     result := false;
+
+     Counter := Tempo[tempono];
+     B := TempoPulse[tempono];
+     if bit then begin
+        if counter >= time then begin
+           if B=0 then result := True;
+           TempoPulse[tempono] := 1;
+        end
+        else
+            Tempo[tempono] := Counter+1;
+     end
+     else begin
+         Tempo[tempono] := 0;
+         TempoPulse[tempono] := 0;
+     end;
+
+end;
+
+
+
+// Main procedure that will be called in first
+function Main: boolean;
+var
+  bit: boolean;
+  value_w: integer;
+  value_dw: integer64;
+begin
+     ScriptSpeed := 1; // 0=Full speed for the script
+
+     Cycle := 0;
+
+     while not Terminated do begin
+
+        bit := GetBitValue(0);
+        if ConfirmBool(bit, 10, 0) then begin
+          Log(Format('%d: On', [Cycle]));
+        end
+        else begin
+             if ConfirmBool(not bit, 1, 1) then
+                Log(Format('%d: Off', [Cycle]));
+        end;
+        SetBitValue(1, not bit);
+
+        // Access to word register
+        value_w := GetRegisterValue(1);
+        SetRegisterValue(2, value_w-1);
+
+        // Access to long word register
+        value_dw := GetRegisterDValue(5);
+        SetRegisterDValue(7, value_dw+1);
+
+        //Log(Format('Cycle n°%d', [Cycle]));
+        Cycle := Cycle + 1;
+     end;
+     result := True;
+end;
+
+
+
+
+end.

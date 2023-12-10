@@ -1,0 +1,16 @@
+License agreement 
+
+The Modbus Memory Emulator program is supplied 'as is' and the user use it at his or her own risk without warranty or guarantee from the author.
+
+
+The author is not responsable of any damages suffered by the user resulting from the use or installation of this software.
+
+
+In the same way, the author is not responsable for any loss of revenue or profit, or of any loss of (records or) information, or for direct or indirect damage which which may occur from the use of the program nor for 
+the reason that the program may be inoperable, and this nonobstant the fact that the author may have been advised of the possibility of such damage.
+
+
+If you use Modbus Memory Emulator for professional use you must register your copy of the software (registration with the author).
+
+
+The use of the Modbus Memory Emulator software implies the acceptance by the user of the terms of this license.

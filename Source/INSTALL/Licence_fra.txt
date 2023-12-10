@@ -1,0 +1,16 @@
+Licence d'utilisation
+
+Le logiciel Modbus Memory Emulator est fourni en l'état et l'usager utilise celui-ci à ses risques et périls, sans garantie d'aucune sorte de la part de l'auteur.
+
+
+L'auteur n'est responsable d'aucun dommage subi par l'utilisateur pouvant résulter de l'utilisation ou de la distribution de ce logiciel.
+
+
+De la même façon, l'auteur n'est en aucun cas responsable d'une quelconque perte de revenus ou de profit, ou de données, ou de tous dommages directs ou indirects, susceptibles de survenir du fait de l'utilisation du logiciel ou pour la raison que celui-ci serait inopérant, quand bien même l'auteur aurait été averti de la possibilité
+de tels dommages.
+
+
+L'utilisation commerciale ou professionnelle de Modbus Memory Emulator nécessite un enregistrement.
+
+
+L'utilisation du logiciel Modbus Memory Emulator vaut acceptation par l'utilisateur des termes de la licence ci-dessus.

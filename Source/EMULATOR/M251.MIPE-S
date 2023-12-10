@@ -1,0 +1,32 @@
+//
+// Script example. Adapt it to your needs.
+//
+
+unit Script;
+
+// Main procedure that will be called in first
+function Main: boolean;
+var
+   Pump: boolean;
+   Cycle: integer;
+begin
+     ScriptSpeed := 1; // 0=Full speed for the script
+
+     while not Terminated do begin
+           while not GetBitValue(2) and not Terminated do begin // Bit number 2 Run/stop script
+              Pump := GetBitValue(0);   // Get bit number 0 => run pump from SCADA
+              SetBitValue(1, Pump);     // Set bit number 1 => pump running contact
+
+              Cycle := GetRegisterValue(0);
+              Cycle := Cycle + 1;
+              SetRegisterValue(0, Cycle);
+           end;
+     end;
+
+     result := True;
+end;
+
+
+
+
+end.

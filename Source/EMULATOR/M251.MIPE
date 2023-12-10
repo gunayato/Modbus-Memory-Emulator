@@ -1,0 +1,16 @@
+[Project]
+TcpIpPort=502
+ModbusSlave=1
+NumRegisters=25000
+NumBits=500
+ScriptEnabled=FALSE
+GatewayEnabled=TRUE
+
+[ComPort]
+Port=COM13
+BaudRate=19200
+StopBits=1
+DataBits=8
+Parity=Even
+FlowControl=None
+

@@ -1,0 +1,7 @@
+[Project]
+TcpIpPort=502
+ModbusSlave=1
+NumRegisters=1000
+NumBits=500
+ScriptEnabled=TRUE
+

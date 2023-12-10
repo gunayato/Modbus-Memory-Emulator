@@ -1,0 +1,2 @@
+Nullsoft Scriptable Install System
+http://nsis.sourceforge.net

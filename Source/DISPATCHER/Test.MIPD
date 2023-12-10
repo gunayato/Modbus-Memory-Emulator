@@ -1,0 +1,13 @@
+[Dispatch]
+TcpIpPort=502
+RedirectIPPort=12345
+GatewayEnabled=FALSE
+
+[ComPort]
+Port=COM1
+BaudRate=9600
+StopBits=1
+DataBits=8
+Parity=None
+FlowControl=None
+

@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2003-03-02 18:54\n"
+"PO-Revision-Date: 2006-02-27 13:06+0100\n"
+"Last-Translator: yome <y@me.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+msgid "ENG"
+msgstr "FRA"
+
+msgid "Edited by:"
+msgstr "Edité par:"
+
+msgid "Unregistered"
+msgstr "Non enregistré"
+
+msgid "Registered"
+msgstr "Enregistré"
+
+msgid "Serial: %sUser: %sCompany: %sEmail: %sAddress: %sPhone: %sWeb: %s"
+msgstr "N° de série: %sUtilisateur: %sSociété: %sEmail: %sAdresse: %sTéléphone: %sWeb: %s"
+
+msgid "About..."
+msgstr "Au sujet de..."
+
+msgid "(c) 2006-2011 by Estrada Guillaume"
+msgstr "(c) 2006-2011 par Estrada Guillaume"
+
+msgid "Published by Soft-Control (www.soft-control.fr)"
+msgstr "Edité par Soft-Control (www.soft-control.fr)"
+
+msgid "Registers"
+msgstr "Registres"
+
+msgid "Bits"
+msgstr "Bits"
+
+msgid "No"
+msgstr "No"
+
+msgid "Decimal"
+msgstr "Décimal"
+
+msgid "Hex"
+msgstr "Hex"
+
+msgid "Binary"
+msgstr "Binaire"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Exiting..."
+msgstr "Fermeture en cours..."
+
+msgid "Read registers from %s / Start %d Count %d"
+msgstr "Lecture registres de %s / Début %d Nombre %d"
+
+msgid "Write registers from %s / Start %d Count %d"
+msgstr "Ecriture registres de %s / Début %d Nombre %d"
+
+msgid "Read coils from %s / Start %d Count %d"
+msgstr "Lecture bits de %s / Début %d Nombre %d"
+
+msgid "Write coils from %s / Start %d Count %d"
+msgstr "Ecriture bits de %s / Début %d Nombre %d"
+
+msgid "Connection from %s"
+msgstr "Connexion de %s"
+
+msgid "Disconnection"
+msgstr "Déconnexion"
+
+msgid "Emulator running"
+msgstr "Emulateur en marche"
+
+msgid "Emulator stopped"
+msgstr "Emulateur arrêté"
+
+msgid "IP parameters"
+msgstr "Paramètres IP"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Slave adr"
+msgstr "Adr esclave"
+
+msgid "Registers/Bits"
+msgstr "Registres/Bits"
+
+msgid "Number of registers"
+msgstr "Nombre de registres"
+
+msgid "Number of bits"
+msgstr "Nombre de bits"
+
+msgid "Open project"
+msgstr "Ouvrir projet"
+
+msgid "Save project"
+msgstr "Sauver projet"
+
+msgid "New project"
+msgstr "Nouveau projet"
+
+msgid "Define configuration"
+msgstr "Configuration"
+
+msgid "Run/Stop emulator"
+msgstr "Marche/Arrêt emulateur"
+
+msgid "Script editor"
+msgstr "Editeur de script"
+
+msgid "Error in script for function: %s"
+msgstr "Erreur dans le script pour la fonction: %s"
+
+msgid "X:%d Y:%d"
+msgstr "X:%d Y:%d"
+
+msgid "error"
+msgstr "erreur"
+
+msgid "!Unknown!"
+msgstr "!Inconnu!"
+
+msgid "Set: "
+msgstr "Set: "
+
+msgid "Object: "
+msgstr "Objet: "
+
+msgid "Object: nil"
+msgstr "Objet: nil"
+
+msgid "Null"
+msgstr "Null"
+
+msgid "Empty"
+msgstr "Vide"
+
+msgid "Enable"
+msgstr "Actif"
+
+msgid "Running script"
+msgstr "Script en marche"
+
+msgid "Stopping script"
+msgstr "Arrêt du script"
+
+msgid "View request"
+msgstr "Voir requête"
+
+msgid "Error in running server... (port already in use ?)"
+msgstr "Erreur de lancement du serveur... (Port déjà utilisé ?)"
+
+msgid "Error in stopping server..."
+msgstr "Erreur en arrêtant le serveur..."
+
+msgid "Close project"
+msgstr "Fermer projet"
+
+msgid "Go to register"
+msgstr "Aller au registre"
+
+msgid "Enter register number to reach"
+msgstr "Entrez le numéro de registre à atteindre"
+
+msgid "Go to bit"
+msgstr "Aller au bit"
+
+msgid "Enter bit number to reach"
+msgstr "Entrez le numéro de bit à atteindre"
+
+msgid "Float"
+msgstr "Réel"
+
+msgid "Filter by used registers"
+msgstr "Filtrer par registres utilisés"
+
+msgid "Filter by used bits"
+msgstr "Filtrer par bits utilisés"
+
+msgid "Middle mouse click on binary value to edit"
+msgstr "Click souris du milieu pour éditer une valeur binaire"
+
+msgid "Default port is 502"
+msgstr "Port par défaut: 502"
+
+msgid "Set 255 to inhibit slave address"
+msgstr "Mettre 255 pour inhiber la prise en compte de l'adresse esclave"
+
+msgid "Invalid function code %d"
+msgstr "Code fonction %d invalide"
+
+msgid "Error code %d"
+msgstr "Code erreur %d"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "COM port parameters"
+msgstr "Paramètres port COM"
+
+msgid "COM port setup"
+msgstr "Paramétrage port COM"
+
+msgid "COM port running"
+msgstr "Port COM en marche"
+
+msgid "COM port stopped"
+msgstr "Port COM arrêté"
+
+msgid "COM port: Error opening com port"
+msgstr "COM port: Erreur dans l'ouverture du port com"
+
+msgid "COM port: Error connecting IP client"
+msgstr "COM port: Erreur dans la connexion du client IP"
+

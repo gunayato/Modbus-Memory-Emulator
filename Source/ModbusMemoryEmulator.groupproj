@@ -1,0 +1,50 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{b68eda3d-abe7-47c6-aaa3-a73767e2ba1c}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="EMULATOR\MbusMEmulator.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Dispatcher\MbusMDispatcher.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<BorlandProject>
+					<Default.Personality/>
+				</BorlandProject>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="MbusMEmulator">
+			<MSBuild Projects="EMULATOR\MbusMEmulator.dproj"/>
+		</Target>
+		<Target Name="MbusMEmulator:Clean">
+			<MSBuild Targets="Clean" Projects="EMULATOR\MbusMEmulator.dproj"/>
+		</Target>
+		<Target Name="MbusMEmulator:Make">
+			<MSBuild Targets="Make" Projects="EMULATOR\MbusMEmulator.dproj"/>
+		</Target>
+		<Target Name="MbusMDispatcher">
+			<MSBuild Projects="Dispatcher\MbusMDispatcher.dproj"/>
+		</Target>
+		<Target Name="MbusMDispatcher:Clean">
+			<MSBuild Targets="Clean" Projects="Dispatcher\MbusMDispatcher.dproj"/>
+		</Target>
+		<Target Name="MbusMDispatcher:Make">
+			<MSBuild Targets="Make" Projects="Dispatcher\MbusMDispatcher.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="MbusMEmulator;MbusMDispatcher"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="MbusMEmulator:Clean;MbusMDispatcher:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="MbusMEmulator:Make;MbusMDispatcher:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

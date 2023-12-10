@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/12/26 17:19:09.911.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\Dispatcher\ModbusMemDispatcher.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\Dispatcher\ModbusIPDispatcher.dproj</Transaction>
+    <Transaction>2012/12/26 17:20:07.905.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\Dispatcher\MbusMDispatcher.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\Dispatcher\ModbusMemDispatcher.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

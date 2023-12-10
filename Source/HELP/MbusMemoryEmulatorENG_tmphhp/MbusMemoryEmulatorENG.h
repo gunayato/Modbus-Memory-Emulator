@@ -1,0 +1,20 @@
+#define start 1
+#define license 5
+#define mainwindow 20
+#define config 15
+#define scripteditor 25
+#define runemulator 35
+#define functions 45
+#define scriptstructure 65
+#define scripttype 75
+#define scriptvariable 85
+#define scriptfunctions 95
+#define scriptoperator 105
+#define traitementconditionnel 115
+#define scriptloop 125
+#define scriptmemory 135
+#define dispatcherpresentation 195
+#define dispatchermainwindow 205
+#define dispatcherconfiguration 215
+#define credits 145
+

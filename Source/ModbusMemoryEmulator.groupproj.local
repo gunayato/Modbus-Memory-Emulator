@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Delphi\Projets\Modbus Memory Emulator XE2\EMULATOR\MbusMEmulator.dproj"/>
+	</Default.Personality>
+	<Transactions>
+    <Transaction>2012/12/26 17:12:01.368.groupproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\ModbusMimic.groupproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\ModbusIPEmulator.groupproj</Transaction>
+    <Transaction>2012/12/26 17:18:37.644.groupproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\ModbusMemoryEmulator.groupproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\ModbusMimic.groupproj</Transaction>
+  </Transactions>
+</BorlandProject>

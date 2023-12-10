@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/03/26 15:43:31.437.pas,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2007\EMULATOR\Bit.pas=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2007\EMULATOR\Unit1.pas</Transaction>
+    <Transaction>2010/03/26 15:43:31.437.dfm,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2007\EMULATOR\Bit.dfm=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2007\EMULATOR\Unit1.dfm</Transaction>
+    <Transaction>2012/12/26 15:22:52.752.pas,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\COMMON\Splash.pas=</Transaction>
+    <Transaction>2012/12/26 15:22:52.754.dfm,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\COMMON\Splash.dfm=</Transaction>
+    <Transaction>2012/12/26 17:18:53.336.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\ModbusMemoryEmulator.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\ModbusIPEmulator.dproj</Transaction>
+    <Transaction>2012/12/26 17:19:32.099.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\ModbusEmulator.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\ModbusMemoryEmulator.dproj</Transaction>
+    <Transaction>2012/12/26 17:19:46.386.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\MbusEmulator.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\ModbusEmulator.dproj</Transaction>
+    <Transaction>2012/12/26 17:19:59.664.dproj,D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\MbusMEmulator.dproj=D:\- Guillaume -\@Delphi\ModbusIp Emulator D2010\EMULATOR\MbusEmulator.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

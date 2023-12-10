@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2003-03-02 18:54\n"
+"PO-Revision-Date: 2006-02-27 13:06+0100\n"
+"Last-Translator: yome <y@me.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+msgid "(c) 2010 by Estrada Guillaume"
+msgstr "(c) 2010 par Estrada Guillaume"
+
+msgid "About..."
+msgstr "Au sujet de..."
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "Configuration file"
+msgstr "Fichier de configuration"
+
+msgid "Define configuration"
+msgstr "Configuration"
+
+msgid "ENG"
+msgstr "FRA"
+
+msgid "Edited by:"
+msgstr "Edité par:"
+
+msgid "Error running emulator for unit %s"
+msgstr "Erreur dans le démarrage de l'émulateur pour l'unité %s"
+
+msgid "First redirection port"
+msgstr "Premier port de redirection"
+
+msgid "IP parameters"
+msgstr "Paramètres IP"
+
+msgid "Loading error !"
+msgstr "Erreur de chargement !"
+
+msgid "Middle mouse click on binary value to edit"
+msgstr "Click souris du milieu pour éditer une valeur binaire"
+
+msgid "Modbus IP port"
+msgstr "Port IP Modbus"
+
+msgid "New project"
+msgstr "Nouveau projet"
+
+msgid "Open project"
+msgstr "Ouvrir projet"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Published by Soft-Control (www.soft-control.fr)"
+msgstr "Edité par Soft-Control (www.soft-control.fr)"
+
+msgid "Registered"
+msgstr "Enregistré"
+
+msgid "Run emulators"
+msgstr "Démarrer les émulateurs"
+
+msgid "Save project"
+msgstr "Sauver projet"
+
+msgid "Serial: %sUser: %sCompany: %sEmail: %sAddress: %sPhone: %sWeb: %s"
+msgstr ""
+"N° de série: %sUtilisateur: %sSociété: %sEmail: %sAdresse: %sTéléphone: %"
+"sWeb: %s"
+
+msgid "Slave adr"
+msgstr "Adr esclave"
+
+msgid "Stop emulators"
+msgstr "Arrêter les émulateurs"
+
+msgid "Unit"
+msgstr "Unité"
+
+msgid "Unregistered"
+msgstr "Non enregistré"
+
+msgid "Unregistered version, only %d emulators can be launched."
+msgstr "Version non enregistrée, seul %d emulateurs peuvent être lancés."
+
+msgid "View request"
+msgstr "Voir requête"
+
+msgid "[Unit %d] Answer received from Emulator listening port %d"
+msgstr "[Unité %d] Réponse reçue de l'émulateur port %d"
+
+msgid "[Unit %d] Answer sent to %s"
+msgstr "[Unité %d] Réponse envoyée à %s"
+
+msgid "[Unit %d] Emulator connected"
+msgstr "[Unité %d] Emulateur connecté"
+
+msgid "[Unit %d] Emulator found"
+msgstr "[Unité %d] Emulateur trouvé"
+
+msgid "[Unit %d] Emulator not connected"
+msgstr "[Unité %d] Emulateur non connecté"
+
+msgid "[Unit %d] Request detected from %s"
+msgstr "[Unité %d] Requête détectée de %s"
+
+msgid "[Unit %d] Request sent to Emulator listening port %d"
+msgstr "[Unité %d] Requête envoyé à l'émulateur port %d"
+
+msgid "error"
+msgstr "erreur"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "COM port parameters"
+msgstr "Paramètres port COM"
+
+msgid "COM port setup"
+msgstr "Paramétrage port COM"
+
+msgid "COM port running"
+msgstr "Port COM en marche"
+
+msgid "COM port stopped"
+msgstr "Port COM arrêté"
+
+msgid "COM port: Error opening com port"
+msgstr "COM port: Erreur dans l'ouverture du port com"
+
+msgid "COM port: Error connecting IP client"
+msgstr "COM port: Erreur dans la connexion du client IP"
+
+msgid "Close project"
+msgstr "Fermer projet"
+
